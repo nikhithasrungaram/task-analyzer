@@ -1,0 +1,61 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: aqua;
+}
+
+.controls {
+    margin: 10px 0;
+}
+
+
+.task-card {
+    background: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-left: 5px solid;
+}
+
+.heading{
+  display: flex;
+  text-align: center;
+  font-weight: solid;
+  justify-content: center;
+}
+.button{
+background-color:purple;
+font-weight: bold;
+border-radius: 10px;
+font-family: 'Times New Roman';
+margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color:#fff
+}
+.b1{
+  border-style: solid;
+}
+.task-card.Critical { border-color: red; }
+.task-card.High { border-color: orange; }
+.task-card.Medium { border-color: yellowgreen; }
+.task-card.Low { border-color: green; }
+body { font-family: Arial; padding: 20px; background: #f9f9f9; }
+.container { max-width: 800px; margin: auto; }
+textarea { width: 100%; height: 150px; font-family: monospace; }
+button { margin: 5px; padding: 10px 15px; }
+#output { margin-top: 20px; }
+.task-card { padding: 10px; margin-bottom: 10px; border-radius: 5px; background: #eee; }
+.high { background: #ec6262; }
+.medium { background: #e2e272; }
+.low { background: #74ca74; }
